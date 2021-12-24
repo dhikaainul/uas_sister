@@ -4,9 +4,9 @@
 * To change this template, choose Tools | Templates
 * and open the template in the editor.
 */
-    $host   ="localhost";
+    $host   ="172.20.0.2";
     $user ="root";
-    $password ="";
+    $password ="admin";
     $db ="scrud"; 
     
     $config =  mysqli_connect($host, $user, $password,$db);
